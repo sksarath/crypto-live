@@ -9,25 +9,28 @@ A live CryptoCurrency tracker using React js + PWA (Progressive Web App)
 
 In the project directory, you can run:
 
-### `npm start`
+``` bash
+# install dependencies
+npm install
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Runs the app in the development mode. open http://localhost:3000
+npm run start
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+# build for production with minification 
+npm run build
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](#running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```
 
 ## Demo ScreenShots
+Desktop View
+
+  ![desktop-view](https://user-images.githubusercontent.com/7887699/39677444-84dd54e8-5198-11e8-8575-40ddd027b5d6.png)
+
+Mobile View  
+
+  ![mobile-view](https://user-images.githubusercontent.com/7887699/39677450-99c3b17c-5198-11e8-848f-729d24b8fd49.png)
+
+PWA(Lighthouse)
+
+  ![pwa](https://user-images.githubusercontent.com/7887699/39677462-cdc1e386-5198-11e8-9706-d603a93fa97a.png)
+
