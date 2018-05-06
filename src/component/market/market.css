@@ -1,0 +1,54 @@
+.market-container
+{
+  text-align: left;
+}
+.market-container h2
+{
+  color: #495057;
+  margin: 0;
+  padding-top: 40px;
+  font-size: 24px;
+}
+.market
+{
+  list-style: none;
+  color: #000;
+  padding-left: 0;
+}
+.market li
+{
+  display: inline-block;
+  margin-right: 25px;
+}
+.market li a
+{
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  color: #0F4E8A;
+}
+.market li a:hover, .market li a:focus
+{
+  opacity: 0.8;
+  outline: none;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px)
+{
+  .market-container
+  {
+    padding: 0 16px;
+  }
+}
+@media only screen and (max-width: 768px)
+{
+  .market-container
+  {
+    padding: 0 16px;
+  }
+  .market-container h2
+  {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+}

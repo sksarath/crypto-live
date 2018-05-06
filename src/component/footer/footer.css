@@ -1,0 +1,37 @@
+.footer
+{
+  background: #343a40;
+  padding: 10px 10px;
+  overflow: hidden;
+  letter-spacing: 0.5px;
+}
+.credit
+{
+  text-align: left;
+  color: #FFF;
+  font-size: 14px;
+  float: left;
+}
+.contact
+{
+  text-align: right;
+  float: right;
+}
+.contact a:not(:last-child)
+{
+  margin-right: 20px;
+}
+.contact img
+{
+  max-width: 20px;
+}
+a
+{
+  color: #FFF;
+  text-decoration: underline;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+}
+a:hover{
+  opacity: 0.8;
+}

@@ -1,0 +1,127 @@
+.indiv-card
+{
+  background: #FFF;
+  padding: 20px 15px 15px 15px;
+  border-radius: 4px;
+  min-width: 270px;
+  margin: 20px 0px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+  position: relative;
+  max-width: 300px;
+}
+.indiv-card:hover
+{
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+.link-pos
+{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.link-pos img
+{
+  width: 20px;
+  opacity: 0.5;
+}
+.link-pos img:hover
+{
+  opacity: 0.8;
+}
+.name-lab
+{
+  font-size: 16px;
+  color: #000;
+  padding-bottom: 0px;
+  font-weight: 500;
+}
+.symbol-lab
+{
+  font-size: 14px;
+  color: #777;
+  padding-bottom: 10px;
+}
+.price-lab
+{
+  font-size: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+.market-cap-lab
+{
+  font-size: 12px;
+  color: #868e96;
+}
+.img-holder
+{
+  margin-bottom: 10px;
+}
+.img-holder img
+{
+  max-width: 50px;
+}
+.status-lab
+{
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.status-lab .lab-width
+{
+  width: 100px;
+}
+.positive
+{
+  color: #2b8a3e;
+  position: relative;
+}
+.positive:after
+{
+  content: '';
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #2b8a3e;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -15px;
+}
+.negative
+{
+  color: #c92a2a;
+  position: relative;
+}
+.negative:after
+{
+  content: '';
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #c92a2a;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -15px;
+}
+.status-day
+{
+  padding-top: 15px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+@media only screen and (max-width: 768px)
+{
+  .indiv-card
+  {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
