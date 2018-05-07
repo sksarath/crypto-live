@@ -11,6 +11,9 @@
     <a href="">
       <img alt="first release" src="https://img.shields.io/badge/release-v1.0-brightgreen.svg" />
     </a>
+    <a>
+      <img alt="npm version" src="https://img.shields.io/npm/v/npm.svg"/>
+    </a>
   </p>
 
   <p>
